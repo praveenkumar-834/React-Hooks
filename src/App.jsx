@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import Navbar from "./components/Navbar";
-import ProductCard from "./components/ProductCard";
-import CartModal from "./components/CartModal";
+import Navbar from "./Components/Navbar";
+import ProductCard from "./Components/ProductCard";
+import CartModal from "./Components/CartModel";
 import "./styles/App.css";
 
 function App() {

@@ -1,4 +1,4 @@
-import "../styles/Navbar.css";
+import "./Navbar.css";
 
 const Navbar = ({ cartCount, openCart }) => (
   <nav className="navbar">

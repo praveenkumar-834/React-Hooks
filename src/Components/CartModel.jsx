@@ -1,6 +1,6 @@
 import "./CartModel.css";
 
-const CartModal = ({ cart, closeCart, removeFromCart }) => {
+const CartModel = ({ cart, closeCart, removeFromCart }) => {
   return (
     <div className="modal-overlay">
       <div className="modal">

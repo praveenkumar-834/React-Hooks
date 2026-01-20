@@ -1,14 +1,16 @@
 .product-card {
-  
   border: 1px solid #ddd;
   padding: 15px;
   border-radius: 8px;
-  text-align: center;
   background: white;
+
+  display: flex;               /* 🔥 */
+  flex-direction: column;      /* 🔥 */
+  height: 100%;                /* important if in grid */
 }
 
 .product-card img {
-  
+  width: 150px;
   height: 150px;
   object-fit: contain;
 }
@@ -23,13 +25,14 @@
   font-size: 18px;
 }
 
+/* 🔥 Push button to bottom */
 .product-card button {
+  margin-top: auto;            /* key line */
   background-color: #2563eb;
   color: white;
   border: none;
   padding: 8px;
   width: 100%;
-  margin-top: 10px;
   cursor: pointer;
   border-radius: 5px;
 }
